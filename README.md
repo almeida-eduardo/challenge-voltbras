@@ -129,7 +129,7 @@ As configurações iniciais da aplicação estão definidas no arquivo ./src/con
 - **api**: configuração para as chamadas da api do [Arcsecond]
 - **db**: configuração do banco de dados para armazenamento dos planetas que tiveram estações instaladas
 
-```json
+```js
 const config = {
     api: {
       uri: 'https://api.arcsecond.io/',
