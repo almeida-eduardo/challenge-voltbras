@@ -1,8 +1,9 @@
 module.exports = {
     Query: {
-        suitablePlanets: (_, __, { dataSources}) => dataSources.planetAPI.getAllPlanets()
+        suitablePlanets: (_, __, { dataSources}) => dataSources.planetAPI.getAllPlanets() // massa
     },
     Mutation: {
+        // realmente esse tratamento de 1 e 0 não fica tão legal, mas essa função ficou bem massa, show!
         installStation: async (_, { planetName }, { dataSources }) => {
             if(!planetName){
                 return {
@@ -12,7 +13,6 @@ module.exports = {
             }
             const result = await dataSources.stationAPI.installStation(planetName);
             const failStatus = result == 0 ? "não pôde ser" : "já está";
-       
             return {
               success: result == 1,
               message: result == 1 ? 'estação instalada com sucesso' : `a estação ${failStatus} instalada no planeta '${planetName}'`,

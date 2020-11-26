@@ -18,6 +18,8 @@ const server = new ApolloServer({
 });
 
 server.listen().then(({url}) => {
+    // sobre o ponto que falei do binding 8080:4000
+    // fica ainda mais estranho porque nos logs ele fala "Server ready at 4000", e na verdade ta na 8080
     console.log(`Server ready at ${url}`);
 });
 

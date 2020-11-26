@@ -1,4 +1,5 @@
 // configurações gerais
+// esse arquivo ficou muito show, só não é muito legal o fato de utilizar snake_case
 const config = {
     api: {
       uri: 'https://api.arcsecond.io/',

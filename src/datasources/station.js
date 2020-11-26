@@ -12,13 +12,14 @@ class StationAPI extends DataSource {
           return result;
       } catch (error) {
           console.log('error', error);
+          // esse return 0 também não ficou muito daora, poderia dar o throw mesmo aqui
         return 0;          
       }
   }
 
   async isStationInstalled( planetName) {
     const found = await stationFind(planetName);
-
+    // aqui ficou legal
     return found != null;
   }
 

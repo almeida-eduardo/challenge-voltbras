@@ -4,10 +4,10 @@ const typeDefs = gql`
         name: String!
         mass: Float!
         unit: String!
-        hasStation: Boolean
+        hasStation: Boolean #poderia ser obrigatório "!", não?
     }
 
-    type installResponse {
+    type installResponse { #por que começar com minúsculo?
         success: Boolean!
         message: String
     }    
@@ -17,7 +17,7 @@ const typeDefs = gql`
     }
 
     type Mutation {
-        installStation(planetName: String!): installResponse
+        installStation(planetName: String!): installResponse # esse retorno também poderia ser obrigatório "!" não?
     }
 `;
 
