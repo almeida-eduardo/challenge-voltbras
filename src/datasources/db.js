@@ -1,28 +1,20 @@
 const { MongoClient } = require("mongodb");
 const config = require('../config');
 
-/**
- * config
- *   - uri: endereço do servidor MongoDB
- *   - database_name: nome do banco de dados dentro do MongoDB
- *   - collection_name: nome da tabela que conterá as informações estações instaladas
- */
-const { db: { uri, database_name, collection_name } } = config;
-
-get_db_collection = async () => {
+getStationCollectionDB = async () => {
     // Use connect method to connect to the Server
-    const client = await MongoClient.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    const client = await MongoClient.connect(config.db.uri, { useNewUrlParser: true, useUnifiedTopology: true });
     
-    const database = client.db(database_name);
-    const collection = database.collection(collection_name);
-    return {client, collection};
+    const database = client.db(config.db.databaseName);
+    const stationCollection = database.collection(config.db.stationCollectionName);
+    return {client, stationCollection};
 }
 
 module.exports.stationFind = async (planetName) => {
     
-    const {client, collection} = await get_db_collection();
+    const {client, stationCollection} = await getStationCollectionDB();
 
-    const result = await collection.findOne({ name: planetName });
+    const result = await stationCollection.findOne({ name: planetName });
         
     if (client) {
         await client.close();
@@ -39,8 +31,8 @@ module.exports.stationInstall = async (planetName) => {
         return -1;
     }
     
-    const {client, collection} = await get_db_collection();
-    await collection.insertOne({ name: planetName });
+    const {client, stationCollection} = await getStationCollectionDB();
+    await stationCollection.insertOne({ name: planetName });
 
     if (client) {
         await client.close();

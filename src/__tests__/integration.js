@@ -1,4 +1,4 @@
-// Mock config file to set the number_pages configuration
+// Mock config file to set the numberPages configuration
 jest.mock('../config');
 
 const {createTestClient} = require('apollo-server-testing');

@@ -137,14 +137,14 @@ As configurações iniciais da aplicação estão definidas no arquivo ./src/con
 const config = {
     api: {
       uri: 'https://api.arcsecond.io/',
-      number_pages: 10,
-      min_planet_mass: 25,
-      mass_unit: 'M_jup',
+      numberPages: 10,
+      minPlanetMass: 25,
+      massUnit: 'M_jup',
     },
     db: {
       uri: 'mongodb://127.0.0.1:27017',
-      database_name: 'challenge',
-      collection_name: 'station'
+      databaseName: 'challenge',
+      stationCollectionName: 'station'
     }
    };
 ```

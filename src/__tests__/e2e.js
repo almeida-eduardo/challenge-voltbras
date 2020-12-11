@@ -14,6 +14,9 @@ const PLANETS_LIST_QUERY = gql`
   }
 `;
 
+// define e2e timeout to 1 minute
+jest.setTimeout(60000);
+
 describe('Server - e2e', () => {
   let stop, graphql;
 
