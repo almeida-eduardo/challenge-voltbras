@@ -1,0 +1,280 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Server - e2e gets list of planets 1`] = `
+Object {
+  "data": Object {
+    "suitablePlanets": Array [
+      Object {
+        "hasStation": false,
+        "mass": 32,
+        "name": "1RXS J235133.3+312720 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 66.28,
+        "name": "2M0805+48 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 66.95,
+        "name": "2M1059-21 b",
+      },
+      Object {
+        "hasStation": true,
+        "mass": 60,
+        "name": "2M1207 A",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 40,
+        "name": "2M1510A a",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 39.3,
+        "name": "2M1510A b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 30,
+        "name": "2M 2206-20 b",
+      },
+      Object {
+        "hasStation": true,
+        "mass": 30,
+        "name": "2MASS J00413538-5621127 A",
+      },
+      Object {
+        "hasStation": true,
+        "mass": 48,
+        "name": "2MASS J0249-0557A",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 44,
+        "name": "2MASS J0249-0557B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 42,
+        "name": "2MASS J10475385+2124234",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 50,
+        "name": "2MASS J11011926-7732383 A",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 30,
+        "name": "2MASS J11011926-7732383 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 40,
+        "name": "2MASS J1450-7841 A",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 40,
+        "name": "2MASS J1450-7841 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 30.1,
+        "name": "2MASS J15344984-2952274 A",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 28.2,
+        "name": "2MASS J15344984-2952274 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 30,
+        "name": "2MASS J2250+2325 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 68.8,
+        "name": "6 Lyn b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 54.2,
+        "name": "AD 3116 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 53,
+        "name": "BD+24 4697 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 26,
+        "name": "BD+26 1888 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 56,
+        "name": "beta Cir b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 31,
+        "name": "CD-35 2722 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 25.2,
+        "name": "CFBDS 1458",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 63.4,
+        "name": "CoRoT-15 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 59.2,
+        "name": "CoRoT-33 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 31.5,
+        "name": "DE0823-49 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 47.8,
+        "name": "EP212 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 25.6,
+        "name": "EPIC 203868608 (AB) b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 51,
+        "name": "EPIC 212036875 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 36,
+        "name": "EPIC 219388192 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 29,
+        "name": "G204-39 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 63.88,
+        "name": "gamma 1 Leo b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 35,
+        "name": "GJ 229 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 42.5,
+        "name": "GJ 570 D",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 37.9,
+        "name": "GJ 758 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 26.2,
+        "name": "GP Com b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 32.86,
+        "name": "HD 106252 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 107,
+        "name": "HD 114762 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 55,
+        "name": "HD 118865 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 37.6,
+        "name": "HD 119445 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 35,
+        "name": "HD 126053 B",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 47,
+        "name": "HD 134113 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 42,
+        "name": "HD 136118 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 50.5,
+        "name": "HD 13724 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 27.3,
+        "name": "HD 137510 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 29.4,
+        "name": "HD 142022 A b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 34.5,
+        "name": "HD 148284 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 48,
+        "name": "HD 160508 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 29.463,
+        "name": "HD 168443 c",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 65.7,
+        "name": "HD 190228 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 52,
+        "name": "HD 19467 b",
+      },
+      Object {
+        "hasStation": false,
+        "mass": 93.6,
+        "name": "HD 202206 B",
+      },
+    ],
+  },
+}
+`;

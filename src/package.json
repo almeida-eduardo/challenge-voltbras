@@ -26,8 +26,11 @@
     "nodemon": "^2.0.6"
   },
   "devDependencies": {
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
     "apollo-server-testing": "^2.19.0",
-    "jest": "^26.6.2"
+    "jest": "^26.6.2",
+    "node-fetch": "^2.6.1"
   },
   "jest": {
     "testPathIgnorePatterns": [

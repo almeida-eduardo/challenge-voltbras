@@ -41,8 +41,12 @@ As seguintes bibliotecas [node.js] são necessárias para a execução do projet
 * graphql (versão 15.4.0 ou superior): biblioteca requerida pela biblioteca apollo-server
 * mongodb (versão 3.6.2 ou superior): biblioteca cliente para conexão e manuseio do banco de dados [MongoDB]
 * nodemon (versão 2.0.6 ou superior): biblioteca que realiza o recarregamento do servidor [node.js] ao identificar mudanças nos códigoss fontes
-* jest (versão 26.6 ou superior): biblioteca para realização dos testes unitários
+* jest (versão 26.6 ou superior): biblioteca para realização dos testes unitários, integração e e2e (end-to-end)
 * apollo-server-testing (versão 2.19 ou superior): biblioteca do servidor apollo para apoio à relização dos testes
+* apollo-link (versão 1.2.14 ou superior): biblioteca do servidor apollo para apoio à relização dos testes
+* apollo-link-http (versão 1.5.17 ou superior): biblioteca do servidor apollo para apoio à relização dos testes
+* node-fetch (versão 2.6.1 ou superior): biblioteca que simplifica o uso do fetch para apoio à relização dos testes
+
 
 ### Instalação
 
@@ -206,7 +210,7 @@ mutation InstallStation {
 
 ### Testes
 
-Para a realização de testes unitários pode-se utilizar a seguinte linha de comando, que irá realizar a execução dos testes especificados através da biblioteca [Jest]:
+Para a realização de testes unitários, de integração e e2e pode-se utilizar a seguinte linha de comando, que irá realizar a execução dos testes especificados através da biblioteca [Jest]:
 ```sh
 npm test
 ```

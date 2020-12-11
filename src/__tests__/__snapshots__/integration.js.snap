@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Mutations install station in planet 1`] = `
+Object {
+  "data": Object {
+    "installStation": Object {
+      "message": "estação instalada com sucesso",
+      "success": true,
+    },
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
+
+exports[`Queries fetches list of planets 1`] = `
+Object {
+  "data": Object {
+    "suitablePlanets": Array [
+      Object {
+        "hasStation": true,
+        "mass": 31.11,
+        "name": "Marte",
+      },
+    ],
+  },
+  "errors": undefined,
+  "extensions": undefined,
+  "http": Object {
+    "headers": Headers {
+      Symbol(map): Object {},
+    },
+  },
+}
+`;
